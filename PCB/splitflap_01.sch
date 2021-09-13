@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12477,9 +12477,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="165.1" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(ADC3)PA3"/>
-<wire x1="81.28" y1="88.9" x2="83.82" y2="88.9" width="0.4064" layer="91"/>
-<label x="83.82" y="88.9" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="(ADC0)PA0"/>
+<wire x1="81.28" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
+<label x="84.582" y="80.518" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -12489,9 +12489,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="165.1" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(ADC2)PA2"/>
-<wire x1="81.28" y1="86.36" x2="83.82" y2="86.36" width="0.4064" layer="91"/>
-<label x="83.82" y="86.36" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="(ADC1)PA1"/>
+<wire x1="81.28" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
+<label x="84.582" y="82.804" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C" class="0">
@@ -12501,9 +12501,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="165.1" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(ADC1)PA1"/>
-<wire x1="81.28" y1="83.82" x2="83.82" y2="83.82" width="0.4064" layer="91"/>
-<label x="83.82" y="83.82" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="(ADC2)PA2"/>
+<wire x1="81.28" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
+<label x="84.582" y="85.598" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D" class="0">
@@ -12513,9 +12513,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="165.1" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="(ADC0)PA0"/>
-<wire x1="81.28" y1="81.28" x2="83.82" y2="81.28" width="0.4064" layer="91"/>
-<label x="83.82" y="81.28" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="(ADC3)PA3"/>
+<wire x1="81.28" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
+<label x="84.582" y="88.138" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
